@@ -1,0 +1,167 @@
+/* Återställning av standardmarginal och fyllning */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Grundstilar */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.header-icons img {
+    width: 140px; /* Lite större logotyp */
+    height: 140px; /* Lite större logotyp */
+}
+
+.login-btn {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 6px 12px; /* Lite mindre knappstorlek */
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #ff9900;
+}
+
+.social-media {
+    margin-top: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.social-media img {
+    width: 20px;
+    height: 20px;
+}
+
+nav.navbar {
+    background-color: #444;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav.navbar ul {
+    list-style: none;
+    display: flex; /* Använd flexbox för att justera placering */
+    justify-content: center; /* Centrera horisontellt */
+    align-items: center; /* Centrera vertikalt */
+}
+
+nav.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav.navbar a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+    font-size: 16px; /* Lite mindre textstorlek för länkarna */
+}
+
+nav.navbar a:hover {
+    color: #ff9900;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.intro {
+    display: flex; /* Flexbox för att placera text och bild sida vid sida */
+    justify-content: space-between; /* Placera saker på varje sida */
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.intro-content {
+    flex: 1; /* Dela utrymme jämnt mellan text och bild */
+}
+
+.intro h2 {
+    font-size: 44px; /* Lite större textstorlek för rubriken */
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    font-size: 10px; /* Mindre textstorlek för undertexten */
+    color: #999; /* Ljusgrå färg för undertexten */
+    line-height: 1.4; /* Öka radavståndet för bättre läsbarhet */
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.round-btn {
+    display: inline-block;
+    padding: 6px 12px; /* Lite mindre knappstorlek */
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.yellow-btn {
+    background-color: #ffcc00;
+    color: #333;
+}
+
+.yellow-btn:hover {
+    background-color: #ff9900;
+}
+
+.beige-btn {
+    background-color: #f5f5dc;
+    color: #333;
+}
+
+.beige-btn:hover {
+    background-color: #f3f3da;
+}
+
+/* Stil för showcase-image.svg */
+.intro-image img {
+    max-width: 300px; /* Lite mindre bildstorlek */
+    max-height: 300px; /* Lite mindre bildstorlek */
+}
+
+/* Stil för rubriken "We Provide The Best Business Solutions" */
+.intro h2 {
+    font-size: 48px; /* Lite större textstorlek för rubriken */
+}
+
+/* Stil för loggor */
+.logos img {
+    max-width: 80px; /* Lite mindre loggstorlek */
+    margin: 20px; /* Lägger till mer mellanrum mellan loggorna */
+}
